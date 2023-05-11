@@ -3,17 +3,22 @@
  */
 package br.org.soujava.hexagonal;
 
+import org.jmolecules.ddd.annotation.Entity;
+
 import java.time.Year;
+import java.util.List;
 
 /**
  * 
  */
-public class Car {
-	
-	private String plate;
-	
-	private String model;
-	
-	private Year year;
+@Entity
+public class Car extends ActiveRecord {
+
+	// bean validation
+	public String plate;
+
+	public String model;
+
+	public Year year;
 
 }
