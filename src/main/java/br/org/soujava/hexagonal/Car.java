@@ -12,7 +12,7 @@ import java.util.List;
  * 
  */
 @Entity
-public class Car extends ActiveRecord {
+public class Car {
 
 	// bean validation
 	public String plate;
