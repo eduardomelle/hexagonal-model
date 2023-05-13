@@ -1,12 +1,15 @@
-package br.org.soujava.hexagonal;
+package br.org.soujava.hexagonal.jsf;
+
+import br.org.soujava.hexagonal.Car;
+import br.org.soujava.hexagonal.CarService;
 
 import java.util.List;
 
-public class CarResource {
+public class CarManageBean {
 
     private final CarService service;
 
-    public CarResource(CarService service) {
+    public CarManageBean(CarService service) {
         this.service = service;
     }
 
