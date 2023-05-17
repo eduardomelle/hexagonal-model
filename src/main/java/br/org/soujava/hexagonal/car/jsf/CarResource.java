@@ -1,6 +1,6 @@
-package br.org.soujava.hexagonal.jsf;
+package br.org.soujava.hexagonal.car.jsf;
 
-import br.org.soujava.hexagonal.CarService;
+import br.org.soujava.hexagonal.car.CarService;
 
 public class CarResource {
 

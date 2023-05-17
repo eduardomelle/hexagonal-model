@@ -1,4 +1,4 @@
-package br.org.soujava.hexagonal;
+package br.org.soujava.hexagonal.car;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package br.org.soujava.hexagonal;
+package br.org.soujava.hexagonal.car;
 
 import org.jmolecules.ddd.annotation.Service;
 
@@ -34,7 +34,7 @@ public class CarService {
     public void vistoria(Car car) {
     }
 
-    public void mudar(Car car) {
+    public void mudar(CarSell.CarRequest car) {
         this.carSell.mudar(car);
     }
 

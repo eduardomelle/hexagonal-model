@@ -1,7 +1,8 @@
-package br.org.soujava.hexagonal.jsf;
+package br.org.soujava.hexagonal.car.jsf;
 
-import br.org.soujava.hexagonal.Car;
-import br.org.soujava.hexagonal.CarService;
+import br.org.soujava.hexagonal.car.Car;
+import br.org.soujava.hexagonal.car.CarSell;
+import br.org.soujava.hexagonal.car.CarService;
 
 import java.util.List;
 
@@ -29,8 +30,10 @@ public class CarManageBean {
         service.vistoria(car);
     }
 
+    // Qualquer coisa
     public void mudar(Car car) {
-        service.mudar(car);
+        CarSell.CarRequest request = null;
+        service.mudar(request);
     }
 
     public void modificarCarro(Car car) {
