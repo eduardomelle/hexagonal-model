@@ -32,8 +32,10 @@ public class CarManageBean {
 
     // Qualquer coisa
     public void mudar(Car car) {
+        // http
         CarSell.CarRequest request = null;
         service.mudar(request);
+        // http
     }
 
     public void modificarCarro(Car car) {
