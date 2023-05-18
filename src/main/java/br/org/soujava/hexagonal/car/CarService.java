@@ -3,6 +3,7 @@ package br.org.soujava.hexagonal.car;
 import org.jmolecules.ddd.annotation.Service;
 
 import java.util.List;
+import java.util.Objects;
 
 @Service
 public class CarService {
@@ -34,8 +35,11 @@ public class CarService {
     public void vistoria(Car car) {
     }
 
-    public void mudar(CarSell.CarRequest car) {
-        this.carSell.mudar(car);
+    public CarSell.CarResponse mudar(CarSell.CarRequest car) {
+
+        Objects.requireNonNull(car);
+
+        return this.carSell.mudar(car);
     }
 
     public void modificarCarro(Car car) {

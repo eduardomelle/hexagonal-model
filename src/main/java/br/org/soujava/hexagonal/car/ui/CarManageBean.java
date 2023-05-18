@@ -1,4 +1,4 @@
-package br.org.soujava.hexagonal.car.jsf;
+package br.org.soujava.hexagonal.car.ui;
 
 import br.org.soujava.hexagonal.car.Car;
 import br.org.soujava.hexagonal.car.CarSell;
