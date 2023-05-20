@@ -21,4 +21,19 @@ public class Car {
 
 	public Year year;
 
+	public int windows;
+
+    public void incrementWindow(int quantity) {
+		// Somar
+    }
+
+	public void incrementWindow(int quantity, Garage garage) {
+		// Increment
+		garage.save(this);
+	}
+
+	public void validate(Driver driver) {
+		// Validar a placa
+	}
+
 }
